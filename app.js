@@ -1,6 +1,5 @@
 const express = require('express');
 var nodemailer = require('nodemailer');
-const router=express.Router();
 const app = new express();
 const port = process.env.PORT || 5550;
 
@@ -16,7 +15,7 @@ app.set('views', './src/views');
 app.use("/user", userRoute);
 app.use("/proceed",proceedRoute);
 
-app.get('/',(req,res)=>{
+app.get('/',function(req,res){
     res.render("index");
  });
 

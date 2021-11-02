@@ -31,7 +31,7 @@ const message = {
     from: 'arshasjeevan75@gmail.com', // Sender address
     to:item.mail,     
     subject: "Diwali wishes from "+ item.from,
-    text: "Happy Diwali" 
+    text: "https://diwaliwishapp.herokuapp.com/" 
 };
 transporter.sendMail(message, function(error, info){
   if (error) {
