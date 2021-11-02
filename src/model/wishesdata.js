@@ -6,7 +6,6 @@ const Schema = mongoose.Schema
 
 const wishesSchema = new Schema(
     {
-        //from:String,
         rname:String,
         email:String,
     }
