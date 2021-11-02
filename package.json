@@ -26,16 +26,5 @@
     "nodemailer": "^6.7.0",
     "nodemon": "^2.0.14",
     "session": "^0.1.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Arsha220/arshalib.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/Arsha220/arshalib/issues"
-  },
-  "homepage": "https://github.com/Arsha220/arshalib#readme",
-  "description": ""
+  }
 }
